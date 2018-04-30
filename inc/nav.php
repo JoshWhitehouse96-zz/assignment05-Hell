@@ -1,5 +1,5 @@
 <!-- example 1 - using absolute position for center -->
-<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary">
+<nav class="navbar fixed-top navbar-expand-md navbar-custom">
 
     <div class="navbar-collapse">
         <ul class="navbar-nav">

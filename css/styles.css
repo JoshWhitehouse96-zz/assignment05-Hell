@@ -1,23 +1,37 @@
 
 body {
-  background: rgb(183, 203, 173);
-  font-family: 'Open Sans', sans-serif;
-}
-
-.centered {
-  text-align: center;
-}
-
-.gray {
-  color: rgb(90, 94, 96);
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 li, p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-.headFont {
-  font-family: 'Roboto Condensed', sans-serif;
+.navbar-custom {
+  background-color: white;
+}
+
+.nav-link:hover {
+ border: 1px solid grey;
+ border-radius: 6px;
+
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pBox {
+  width: 60%;
+}
+
+#secondaryColor {
+  color: rgb(184, 187, 173);
 }
 
 .highlight {
@@ -25,62 +39,68 @@ li, p {
   text-decoration: underline;
 }
 
-.topHeader {
-  margin-top: 10px;
-}
-
 /* Header Parallax Element Style*/
 .paral {
-min-height: 600px;
-background-attachment: fixed;
-background-size: cover;
-background-position: 50% 50%;
+  min-height: 600px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 /* Paragraph for Parallax Section */
 .paral p {
-font-size: 14px;
-color:rgb(255, 255, 255);
-text-align: center;
-
-/*background-color: rgba(0, 0, 0, 0.75); */
+  color:rgb(255, 255, 255);
 }
 
 /* Heading for Parallax Section */
 .paral h1 {
-color: rgba(255, 255, 255, 0.8);
-font-size: 60px;
-text-align: center;
-padding-top: 60px;
-line-height: 100px;
+  color: rgba(255, 255, 255);
+  font-family: 'Playfair Display', serif;
 }
 
 /* Image for Parallax Section */
 .paralsec {
-background-image: url(../images/dog1.jpg);
-background-size: auto;
-margin: 0;
-padding: 0;
+  background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(../images/dog1.jpg);
+  background-size: auto;
+  margin: 0;
+  padding: 0;
 }
 
 .paralsec1 {
-background-image: url(../images/dog2.jpg);
-background-size: auto;
-margin: 0;
+  background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ), url(../images/dog2.jpg);
+  background-size: auto;
+  margin: 0;
+}
+
+.paralsec1 p {
+  line-height: 2em;
+  font-size: 16px;
+}
+
+.pBox {
+  width: 60%;
 }
 
 .paralsec2 {
-background-image: url(../images/dog3.jpg);
-background-size: auto;
-margin: 0;
+  background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(../images/dog3.jpg);
+  background-size: auto;
+  margin: 0;
 }
 
 .paralsec3 {
-background-image: url(../images/dog4.jpg);
-background-size: auto;
-margin: 0;
+  background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(../images/dog4.jpg);
+  background-size: auto;
+  margin: 0;
 }
-
-
-/* Remove Bottom Margin from Jumbotron */
-.jumbotron{margin: 0;}
