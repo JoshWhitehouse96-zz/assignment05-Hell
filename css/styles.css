@@ -29,14 +29,6 @@ li, p {
   margin-top: 10px;
 }
 
-img {
-  border-radius: 6px;
-}
-
-.slider {
-    size: 100px 100px;
-}
-
 /* Header Parallax Element Style*/
 .paral {
 min-height: 600px;
@@ -49,7 +41,6 @@ background-position: 50% 50%;
 .paral p {
 font-size: 14px;
 color:rgb(255, 255, 255);
-text-shadow: 3px 3px 5px black;
 text-align: center;
 
 /*background-color: rgba(0, 0, 0, 0.75); */
@@ -66,26 +57,26 @@ line-height: 100px;
 
 /* Image for Parallax Section */
 .paralsec {
-background-image: url(../images/cooperTongue.jpg);
+background-image: url(../images/dog1.jpg);
 background-size: auto;
 margin: 0;
 padding: 0;
 }
 
 .paralsec1 {
-background-image: url(../images/IMG_5471.jpg);
+background-image: url(../images/dog2.jpg);
 background-size: auto;
 margin: 0;
 }
 
 .paralsec2 {
-background-image: url(../images/IMG_1813.jpg);
+background-image: url(../images/dog3.jpg);
 background-size: auto;
 margin: 0;
 }
 
 .paralsec3 {
-background-image: url(../images/Milly.jpg);
+background-image: url(../images/dog4.jpg);
 background-size: auto;
 margin: 0;
 }

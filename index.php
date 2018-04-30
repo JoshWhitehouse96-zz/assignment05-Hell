@@ -31,7 +31,7 @@
 <!-- Add More Parallax Sections Here -->
 
 <div class="jumbotron paral paralsec3">
-  <h1 class="display-3"> Sign Up to learn More!</h1>
+  <h1 class="display-1"> Sign Up to learn More!</h1>
     <p class="lead">
       <a class="btn btn-primary btn-lg btn-md" href="signUp.php" role="button"> Sign Up Today!</a>
     </p>

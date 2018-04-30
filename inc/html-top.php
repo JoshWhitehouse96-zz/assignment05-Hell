@@ -10,12 +10,6 @@
   <!-- custom styles -->
   <link rel="stylesheet" type='text/css' href="css/styles.css">
 
-  <!-- image slider - http://kenwheeler.github.io/slick/ -->
-  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-
-  <!-- Add the new slick-theme.css if you want the default styling -->
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-
   <!-- Added bootstrap cdn *lit* -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
