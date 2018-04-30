@@ -5,12 +5,12 @@
 <p> Sign up for the newsletter below! </p>
 
 
-<div class="jumbotron paral paralsec3">
+<div class="jumbotron paral paralsec3 flexBox">
   <h1 class="display-3"> Sign Up to learn More!</h1>
     <p class="lead">
       <form action="" method="post">
-        <input type="email" name="email" id="email" placeholder="email">
-        <input type="submit" value="Sign-Up">
+        <input id="signUpInput" type="email" name="email" id="email" placeholder="email">
+        <button class="btn btn-outline-success btn-lg" type="submit" value="Sign-Up">Sign Up </button>
       </form>
     </p>
 </div>

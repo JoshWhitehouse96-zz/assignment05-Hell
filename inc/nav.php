@@ -4,21 +4,21 @@
     <div class="navbar-collapse">
         <ul class="navbar-nav">
           <li class="nav-item">
-              <a class="nav-link <?php if($page=='home'){echo 'highlight';}?>" href="index.php">Home</a>
+              <a class="nav-link <?php if($page=='home'){echo 'highlight';}?>" href="index.php">home</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link <?php if($page=='login'){echo 'highlight';}?>" href="login.php">Login</a>
+              <a class="nav-link <?php if($page=='login'){echo 'highlight';}?>" href="login.php">login</a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link <?php if($page=='why'){echo 'highlight';}?>" href="why.php">Why Dogs</a>
+                <a class="nav-link <?php if($page=='why'){echo 'highlight';}?>" href="why.php">why dogs</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?php if($page=='what'){echo 'highlight';}?>" href="what.php">What dogs need</a>
+                <a class="nav-link <?php if($page=='what'){echo 'highlight';}?>" href="what.php">what dogs need</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?php if($page=='signUp'){echo 'highlight';}?>" href="signUp.php">Sign up Today!</a>
+                <a class="nav-link <?php if($page=='signUp'){echo 'highlight';}?>" href="signUp.php">sign up today!</a>
             </li>
         </ul>
     </div>
